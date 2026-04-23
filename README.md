@@ -6,6 +6,36 @@ Ghidul îți arată cum folosești Claude Code în VS Code ca unealtă de lucru 
 
 ---
 
+## Cum folosești ghidul
+
+Repo-ul are un `CLAUDE.md` în rădăcină care pune Claude Code în **mod tutor** când deschizi folderul în VSCode. La prima ta interacțiune, Claude îți oferă două moduri de lucru:
+
+🅰️ **MOD CITIRE** , îți afișează direct conținutul ghidului, ordonat și formatat. Tu îi spui ce vrei (totul, o parte, un strat anume, anexele) și ți-l aduce. Citești în ritmul tău, fără provocări, fără exerciții. Bun pentru parcurgere liniară sau referință punctuală.
+
+🅱️ **MOD ÎNVĂȚARE** , Claude te invită într-o călătorie de învățare. Conversați despre conținut, te calibrează (nivel + ce vrei să construiești), îți propune o cale prin straturile relevante, dă exemple practice ancorate în munca ta de solopreneur și micro-exerciții de 5-15 min. Bun pentru aplicații directe.
+
+**Pași pentru cursanți:**
+
+1. Clonează repo-ul:
+   ```
+   git clone https://github.com/danutmitrut/ghid-claude-code-gitbook.git
+   ```
+
+2. Deschide folderul în VSCode:
+   ```
+   code ghid-claude-code-gitbook
+   ```
+
+3. Deschide panel-ul Claude Code (extensia VSCode, click pe iconița Claude din sidebar).
+
+4. Scrie în chat: `salut` sau `vreau să folosesc ghidul` (sau orice mesaj). Claude te întâmpină și îți oferă alegerea între A (citire) și B (învățare).
+
+5. Răspunzi cu `A` sau `B`, sau direct cu o întrebare specifică (ex: "vreau să învăț despre MCP servers", "afișează-mi 1.1 instalare").
+
+Cele două moduri coexistă, poți comuta oricând spunând "trecem în mod citire" sau "vreau mod învățare". Claude răspunde mereu ancorat în ghid, fără să inventeze.
+
+---
+
 ## Cum e organizat
 
 Trei părți, unsprezece straturi, plus anexe:
